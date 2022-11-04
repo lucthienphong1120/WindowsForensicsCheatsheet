@@ -1,4 +1,6 @@
-# WindowsForensicsCheatsheet
+# Windows Forensics Cheatsheet
+
+![image](https://user-images.githubusercontent.com/90561566/200009069-e531907f-ea94-4036-bc30-d11e38a7b2ae.png)
 
 ## System info and accounts
 
