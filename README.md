@@ -85,8 +85,22 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
 NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery
 ```
 
+## Evidence of execution
 
-
-
-
-
+UserAssist:
+```
+NTUSER.DAT\Software\Microsoft\Windows\Currentversion\Explorer\UserAssist\{GUID}\Count
+```
+ShimCache:
+```
+SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache
+```
+AmCache:
+```
+Amcache.hve\Root\File\{Volume GUID}\
+```
+BAM/DAM:
+```
+SYSTEM\CurrentControlSet\Services\bam\UserSettings\{SID}
+SYSTEM\CurrentControlSet\Services\dam\UserSettings\{SID}
+```
